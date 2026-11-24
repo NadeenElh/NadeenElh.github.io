@@ -71,3 +71,12 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
 ---
 
 <h2 id="news-and-publications">News &amp; Publications</h2>
+
+<style>
+  .profile img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 50%;
+  }
+</style>
