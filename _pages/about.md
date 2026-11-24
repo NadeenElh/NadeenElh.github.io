@@ -80,4 +80,7 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
     object-position: top center;
     border-radius: 50%;
   }
+  .post article h2 a[href$="/publications/"] {
+    text-transform: capitalize;
+  }
 </style>
