@@ -7,7 +7,7 @@ first_name: Nadeen
 middle_name: 
 last_name: Elhadad
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I’m a PhD student at Harada Laboratory, The University of Osaka, working on robotic disassembly and force-based manipulation. 
   Interested in contact-rich manipulation, sim-to-real reinforcement learning, and robot learning for resource circulation and remanufacturing.
@@ -354,8 +354,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Elhadad]
+  first_name: [Nadeen]
 
   style: apa
   locale: en
