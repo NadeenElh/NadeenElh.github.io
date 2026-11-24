@@ -36,6 +36,8 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
 **Research interests:** reinforcement learning for manipulation, sim-to-real transfer, force-based perception, and robotic disassembly for recycling and remanufacturing.
 
 
+<div style="clear: both;"></div>
+
 <p style="margin-top: 1.5rem;">
   <a href="#portfolio">Portfolio</a> &nbsp;·&nbsp;
   <a href="#biography">Biography</a> &nbsp;·&nbsp;
@@ -47,7 +49,7 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
 ## Portfolio
 
 <div class="row mt-3">
-  <div class="col-sm-6 mb-4">
+  <div class="col-md-6 mb-4">
     {% include figure.liquid path="assets/img/portfolio/disassembly.gif" class="img-fluid rounded z-depth-1" %}
     <h5 class="mt-2">Belief-Augmented RL for Force-Driven Robotic Disassembly</h5>
     <p>A particle filter estimates the hidden direction in which a part can be extracted, using only wrist force/torque sensing, and an RL policy uses this belief to guide its motion. Trained in MuJoCo and deployed zero-shot on a KUKA LBR iiwa 14.</p>
@@ -56,15 +58,7 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
       <a href="{{ '/assets/video/disassembly.mp4' | relative_url }}">[Video]</a>
     </p>
   </div>
-
-  <!-- Second project: remove the <!-- and around this block when ready
-  <div class="col-sm-6 mb-4">
-    {% include figure.liquid path="assets/img/portfolio/hook.gif" class="img-fluid rounded z-depth-1" %}
-    <h5 class="mt-2">Zero-Shot Sim-to-Real Hook Insertion on a Humanoid</h5>
-    <p>Short description here.</p>
-  </div>
-  -->
-</div> -->
+</div>
 
 ---
 
