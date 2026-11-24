@@ -66,6 +66,7 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
 
 - **2026 – present** &nbsp; PhD student, Harada Laboratory, The University of Osaka
 - **2024 – 2026** &nbsp; M.S., Harada Laboratory, The University of Osaka
+- **2023 – 2024** &nbsp; Teaching Assistant, Benha Faculty of Engineering, Benha University, Egypt
 - **2018 – 2023** &nbsp; B.Sc. in Mechatronics Engineering, Benha Faculty of Engineering, Benha University, Egypt
 
 ---
