@@ -57,14 +57,14 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
     </p>
   </div>
 
-  <!-- Second project: remove the <!-- and --> around this block when ready
+  <!-- Second project: remove the <!-- and around this block when ready
   <div class="col-sm-6 mb-4">
     {% include figure.liquid path="assets/img/portfolio/hook.gif" class="img-fluid rounded z-depth-1" %}
     <h5 class="mt-2">Zero-Shot Sim-to-Real Hook Insertion on a Humanoid</h5>
     <p>Short description here.</p>
   </div>
   -->
-</div>
+</div> -->
 
 ---
 
