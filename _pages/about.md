@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student, <a href='https://www.roboticmanipulation.org/'>Harada Laboratory</a>, The University of Osaka
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Graduate School of Engineering Science</p>
+    <p>The University of Osaka</p>
+    <p>Toyonaka, Osaka, Japan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +22,58 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student at the [Harada Laboratory](https://www.roboticmanipulation.org/), The University of Osaka, where I also completed my Master's degree. My research focuses on **contact-rich robotic manipulation**, combining **reinforcement learning**, **force sensing**, and **probabilistic state estimation** so that robots can handle tasks where the right motion cannot be seen and has to be felt.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my Master's, I developed a belief-augmented reinforcement learning framework for **force-driven robotic disassembly**. In this framework, a particle filter estimates the hidden direction in which a part can be extracted using only wrist force/torque sensing, and the policy uses this belief to guide its motion. The policy is trained entirely in MuJoCo simulation on a robot-agnostic simple peg-in-hole pair and transferred zero-shot to a real KUKA LBR iiwa 14 robot and an End-of-Life AirCon unit.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the Benha Faculty of Engineering, Benha University, Egypt, where I worked as a Teaching Assistant for one year.
+
+**Research interests:** reinforcement learning for manipulation, sim-to-real transfer, force-based perception, and robotic disassembly for recycling and remanufacturing.
+
+
+<p style="margin-top: 1.5rem;">
+  <a href="#portfolio">Portfolio</a> &nbsp;·&nbsp;
+  <a href="#biography">Biography</a> &nbsp;·&nbsp;
+  <a href="#news-and-publications">News &amp; Publications</a>
+</p>
+
+---
+
+## Portfolio
+
+<div class="row mt-3">
+  <div class="col-sm-6 mb-4">
+    {% include figure.liquid path="assets/img/portfolio/disassembly.gif" class="img-fluid rounded z-depth-1" %}
+    <h5 class="mt-2">Belief-Augmented RL for Force-Driven Robotic Disassembly</h5>
+    <p>A particle filter estimates the hidden direction in which a part can be extracted, using only wrist force/torque sensing, and an RL policy uses this belief to guide its motion. Trained in MuJoCo and deployed zero-shot on a KUKA LBR iiwa 14.</p>
+    <p>
+      <a href="https://arxiv.org/abs/2610.38513">[arXiv]</a>
+      <a href="{{ '/assets/video/disassembly.mp4' | relative_url }}">[Video]</a>
+    </p>
+  </div>
+
+  <!-- Second project: remove the <!-- and --> around this block when ready
+  <div class="col-sm-6 mb-4">
+    {% include figure.liquid path="assets/img/portfolio/hook.gif" class="img-fluid rounded z-depth-1" %}
+    <h5 class="mt-2">Zero-Shot Sim-to-Real Hook Insertion on a Humanoid</h5>
+    <p>Short description here.</p>
+  </div>
+  -->
+</div>
+
+---
+
+## Biography
+
+- **2026 – present** &nbsp; PhD student, Harada Laboratory, The University of Osaka
+- **2024 – 2026** &nbsp; M.S., Harada Laboratory, The University of Osaka
+- **2018 – 2023** &nbsp; B.Sc. in Mechatronics Engineering, Benha Faculty of Engineering, Benha University, Egypt
+
+---
+
+<h2 id="news-and-publications">News &amp; Publications</h2>
