@@ -7,7 +7,7 @@ first_name: Nadeen
 middle_name: 
 last_name: Elhadad
 contact_note: >
-  
+  Email: <a href="mailto:u348759k@ecs.sys.osaka-u.ac.jp">u348759k@ecs.sys.osaka-u.ac.jp</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I’m a PhD student at Harada Laboratory, The University of Osaka, working on robotic disassembly and force-based manipulation. 
   Interested in contact-rich manipulation, sim-to-real reinforcement learning, and robot learning for resource circulation and remanufacturing.
