@@ -7,7 +7,7 @@ subtitle: PhD Student, <a href='https://www.roboticmanipulation.org/'>Harada Lab
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Graduate School of Engineering Science</p>
     <p>The University of Osaka</p>
