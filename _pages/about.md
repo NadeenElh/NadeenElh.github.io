@@ -50,7 +50,7 @@ Before coming to Japan, I received my B.Sc. in Mechatronics Engineering from the
 
 <div class="row mt-3">
   <div class="col-md-6 mb-4">
-    {% include figure.liquid path="assets/img/portfolio/disassembly.gif" class="img-fluid rounded z-depth-1" %}
+    <img src="{{ '/assets/img/portfolio/disassembly.gif' | relative_url }}" class="img-fluid rounded z-depth-1" width="100%" alt="Robotic disassembly demo" loading="lazy">
     <h5 class="mt-2">Belief-Augmented RL for Force-Driven Robotic Disassembly</h5>
     <p>A particle filter estimates the hidden direction in which a part can be extracted, using only wrist force/torque sensing, and an RL policy uses this belief to guide its motion. Trained in MuJoCo and deployed zero-shot on a KUKA LBR iiwa 14.</p>
     <p>
